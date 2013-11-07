@@ -879,6 +879,13 @@
       "name": "DescribeCacheClusters",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1125,6 +1132,13 @@
       "name": "DescribeCacheEngineVersions",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1201,6 +1215,13 @@
       "name": "DescribeCacheParameterGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1260,6 +1281,13 @@
       "name": "DescribeCacheParameters",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1397,6 +1425,13 @@
       "name": "DescribeCacheSecurityGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1478,6 +1513,13 @@
       "name": "DescribeCacheSubnetGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1564,6 +1606,13 @@
       "name": "DescribeEngineDefaultParameters",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1710,6 +1759,13 @@
       "name": "DescribeEvents",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1798,6 +1854,13 @@
       "name": "DescribeReservedCacheNodes",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1930,6 +1993,13 @@
       "name": "DescribeReservedCacheNodesOfferings",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {

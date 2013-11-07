@@ -38,6 +38,13 @@
       "name": "BatchGetItem",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "request_items": "unprocessed_keys"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -1719,6 +1726,13 @@
       "name": "ListTables",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "exclusive_start_table_name": "last_evaluated_table_name"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2018,6 +2032,13 @@
       "name": "Query",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "exclusive_start_key": "last_evaluated_key"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2309,6 +2330,13 @@
       "name": "Scan",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "exclusive_start_key": "last_evaluated_key"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {

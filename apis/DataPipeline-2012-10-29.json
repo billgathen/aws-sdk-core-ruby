@@ -91,6 +91,13 @@
       "name": "DescribeObjects",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -334,6 +341,13 @@
       "name": "ListPipelines",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -582,6 +596,13 @@
       "name": "QueryObjects",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {

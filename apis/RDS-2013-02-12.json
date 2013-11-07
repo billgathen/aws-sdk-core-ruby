@@ -2317,6 +2317,13 @@
       "name": "DescribeDBEngineVersions",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2429,6 +2436,13 @@
       "name": "DescribeDBInstances",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2760,6 +2774,13 @@
       "name": "DescribeDBLogFiles",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2829,6 +2850,13 @@
       "name": "DescribeDBParameterGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2888,6 +2916,13 @@
       "name": "DescribeDBParameters",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -2981,6 +3016,13 @@
       "name": "DescribeDBSecurityGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3088,6 +3130,13 @@
       "name": "DescribeDBSnapshots",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3207,6 +3256,13 @@
       "name": "DescribeDBSubnetGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3305,6 +3361,13 @@
       "name": "DescribeEngineDefaultParameters",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "engine_defaults.marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3454,6 +3517,13 @@
       "name": "DescribeEventSubscriptions",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3545,6 +3615,13 @@
       "name": "DescribeEvents",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3649,6 +3726,13 @@
       "name": "DescribeOptionGroupOptions",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3772,6 +3856,13 @@
       "name": "DescribeOptionGroups",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -3959,6 +4050,13 @@
       "name": "DescribeOrderableDBInstanceOptions",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -4072,6 +4170,13 @@
       "name": "DescribeReservedDBInstances",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -4216,6 +4321,13 @@
       "name": "DescribeReservedDBInstancesOfferings",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
@@ -4340,6 +4452,13 @@
       "name": "DownloadDBLogFilePortion",
       "http_method": "POST",
       "http_path": "/",
+      "metadata": {
+        "paging": {
+          "tokens": {
+            "marker": "marker"
+          }
+        }
+      },
       "input": {
         "type": "input",
         "members": {
