@@ -2698,7 +2698,8 @@
         "paging": {
           "tokens": {
             "marker": "next_marker"
-          }
+          },
+          "truncated_if": "is_truncated"
         }
       },
       "input": {
@@ -2777,7 +2778,8 @@
         "paging": {
           "tokens": {
             "marker": "next_marker"
-          }
+          },
+          "truncated_if": "is_truncated"
         }
       },
       "input": {
@@ -3161,7 +3163,8 @@
         "paging": {
           "tokens": {
             "marker": "next_marker"
-          }
+          },
+          "truncated_if": "is_truncated"
         }
       },
       "input": {
@@ -3245,7 +3248,8 @@
         "paging": {
           "tokens": {
             "marker": "next_marker"
-          }
+          },
+          "truncated_if": "is_truncated"
         }
       },
       "input": {

@@ -95,7 +95,8 @@
         "paging": {
           "tokens": {
             "marker": "marker"
-          }
+          },
+          "truncated_if": "has_more_results"
         }
       },
       "input": {
@@ -345,7 +346,8 @@
         "paging": {
           "tokens": {
             "marker": "marker"
-          }
+          },
+          "truncated_if": "has_more_results"
         }
       },
       "input": {
@@ -600,7 +602,8 @@
         "paging": {
           "tokens": {
             "marker": "marker"
-          }
+          },
+          "truncated_if": "has_more_results"
         }
       },
       "input": {
