@@ -25,6 +25,7 @@ module Aws
     autoload :InputShapeTranslator, 'aws/api/shape_translator'
     autoload :OperationTranslator, 'aws/api/operation_translator'
     autoload :OutputShapeTranslator, 'aws/api/shape_translator'
+    autoload :PaginationTranslator, 'aws/api/pagination_translator'
     autoload :ServiceNamer, 'aws/api/service_namer'
     autoload :ShapeTranslator, 'aws/api/shape_translator'
     autoload :Translator, 'aws/api/translator'
